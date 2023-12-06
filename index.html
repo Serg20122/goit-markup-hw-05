@@ -56,7 +56,7 @@
         </section>
         <section class="section">
             <div class="container ">
-                <h2 class="section-our-teams">Our team's goals</h2>
+                <h2 class="visually-hidden">Our team's goals</h2>
                 <ul class="first">
                     <li class="list">
                         <div class="container-svg">
@@ -390,11 +390,14 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe">
+                <p class="tex-subscribe">Subscribe</p>
+            </div>
         </div>
     </footer>
     <div class="backdrop is-open">
         <div class="modal">
-            <button class="modal-close-btn">
+            <button class="modal-close-btn" type="button">
                 <svg class="modal-close-btn-icon" width="8" height="8" aria-label="close modal icon">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
@@ -407,7 +410,7 @@
                     <div class="review-form-input-wrapper">
                         <input class="review-form-input" id="user-name" name="user-name" type="text"
                             pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+" title="Serhii" required>
-                        <svg class="review-form-input-icon" width="18" height="18" aria-label="icon person">
+                        <svg class="review-form-input-icon" width="18" height="24" aria-label="icon person">
                             <use href="./images/icons.svg#icon-person">
                             </use>
                         </svg>
@@ -443,9 +446,9 @@
                         required></textarea>
                 </div>
                 <div class="review-form-checkbox-wrapper">
-                    <input class="review-form-checkbox section-our-teams" id="user-privacy-policy" name="user-privacy-policy"
+                    <input class="review-form-checkbox visually-hidden" id="user-privacy" name="user-privacy"
                         type="checkbox" value="true" required>
-                    <label class="review-form-checkbox-label" for="user-privacy-policy">
+                    <label class="review-form-checkbox-label" for="user-privacy">
                         <span class="review-form-own-checkbox">
                             <svg class="review-form-own-checkbox-icon" width="10" height="8" aria-label="checkmark icon">
                             <use href="./images/icons.svg#icon-vector"></use>
